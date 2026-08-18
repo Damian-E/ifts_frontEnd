@@ -6,8 +6,8 @@ Proyecto correspondiente a la **Práctica Formativa Obligatoria 1 (PFO1)**. Cons
 ---
 
 ## 🔗 Despliegue en Producción
-- **URL en Vercel:** `https://iftsfrontenddamian.vercel.app/` *(Actualizá con tu enlace real tras desplegar)*
-- **Repositorio Público:** `https://github.com/Damian-E/ifts_frontEnd`
+- **URL en Vercel:** [iftsfrontenddamian.vercel.app](https://iftsfrontenddamian.vercel.app/)
+- **Repositorio Público:** [github.com/Damian-E/ifts_frontEnd](https://github.com/Damian-E/ifts_frontEnd)
 
 ---
 
