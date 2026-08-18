@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Damián Pelisare | Portafolio Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado y Navegación Semántica -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">DP<span>.</span></a>
+      <ul class="nav-menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#intereses">Intereses</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Hero / Presentación -->
+    <section id="sobre-mi" class="hero container">
+      <div class="hero-content">
+        <span class="badge">Estudiante de Desarrollo Web</span>
+        <h1>Hola, soy <span>Damián Pelisare</span></h1>
+        <p>
+          Apasionado por la tecnología, el desarrollo de software y la resolución de problemas lógicos. 
+          Actualmente construyendo bases sólidas en frontend y lógica de programación.
+        </p>
+        <div class="hero-buttons">
+          <a href="https://github.com/TU_USUARIO_DE_GITHUB" target="_blank" rel="noopener noreferrer" class="btn btn-github">
+            Ver mi GitHub
+          </a>
+          <a href="#contacto" class="btn btn-secondary">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1534972195531-a756b1129f63?q=80&w=600&auto=format&fit=crop" alt="Foto de presentación de Damián Pelisare trabajando en código" class="hero-img">
+      </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="skills-section">
+      <div class="container">
+        <h2 class="section-title">Habilidades Técnicas</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML5 Semántico</h3>
+            <p>Estructuración accesible, limpia y optimizada para la web moderna.</p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS3 / Flexbox & Grid</h3>
+            <p>Diseño responsive, animaciones fluidas y maquetación adaptada a móviles.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Python</h3>
+            <p>Fundamentos de programación, algoritmos y estructuras de datos.</p>
+          </div>
+          <div class="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Control de versiones, trabajo colaborativo y despliegue continuo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Personal a Elección: Intereses y Proyectos -->
+    <section id="intereses" class="personal-section container">
+      <h2 class="section-title">Más sobre mí & Pasiones</h2>
+      <div class="personal-grid">
+        <article class="personal-card">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop" alt="Monitor mostrando líneas de código en un editor moderno" class="personal-img">
+          <div class="personal-info">
+            <h3>Desarrollo de Software</h3>
+            <p>Me interesa la arquitectura de sistemas, la optimización de flujos y aprender nuevas herramientas de desarrollo.</p>
+          </div>
+        </article>
+        <article class="personal-card">
+          <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=600&auto=format&fit=crop" alt="Gráficos y análisis financiero sobre una pantalla" class="personal-img">
+          <div class="personal-info">
+            <h3>Finanzas Personales & Automatización</h3>
+            <p>Entusiasta de crear soluciones prácticas para la gestión diaria de presupuestos y análisis de datos.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="contact-subtitle">¿Tenés alguna propuesta o consulta? Escribime un mensaje.</p>
+        
+        <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('¡Mensaje enviado con éxito!');">
+          <div class="form-group">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje acá..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de Página Semántico -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Damián Pelisare. Todos los derechos reservados.</p>
+      <p>
+        <a href="https://github.com/TU_USUARIO_DE_GITHUB" target="_blank" rel="noopener noreferrer">Mi GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
