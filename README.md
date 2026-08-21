@@ -31,8 +31,9 @@ Proyecto correspondiente a la **Práctica Formativa Obligatoria 1 (PFO1)**. Cons
 ## 🤖 Declaración de Uso de Inteligencia Artificial
 En cumplimiento con las pautas de transparencia de la consigna:
 
-1. **Herramienta utilizada:** Gemini (Asistente de IA).
+1. **Herramienta utilizada:** Gemini (Asistente de IA Pro).
 2. **Propósito:** Generación de la estructura base en HTML semántico, cálculo de estilos CSS con Grid/Flexbox y redacción inicial de la plantilla del README.
 3. **Plan previo:** Definir una landing modular con 4 secciones clave (Hero, Skills, Personal, Contacto) sin dependencias externas ni frameworks de JS.
 4. **Experiencia previa del autor:** Conocimientos en maquetación web, sintaxis HTML/CSS y lógica de programación.
-5. **Revisión y adaptación:** Se ajustaron los selectores de accesibilidad (`label` con `id`), se refinaron las variables de color, se adaptaron los textos a la trayectoria real del alumno y se verificó el correcto funcionamiento de las media queries y enlaces externos.
+5. **Revisión y adaptación:** Se ajustaron los selectores de accesibilidad (`label` con `id`), se refinaron las variables de color, se adaptaron los textos de la Landing Page y se verificó el correcto funcionamiento de las media queries y enlaces externos.
+
